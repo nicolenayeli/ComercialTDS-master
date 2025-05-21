@@ -36,7 +36,7 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(197, 69);
+            comboBox1.Location = new Point(281, 138);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(172, 23);
             comboBox1.TabIndex = 0;
@@ -45,7 +45,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(197, 51);
+            label1.Location = new Point(335, 111);
             label1.Name = "label1";
             label1.Size = new Size(39, 15);
             label1.TabIndex = 1;
@@ -53,7 +53,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(258, 167);
+            button1.Location = new Point(259, 184);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 2;

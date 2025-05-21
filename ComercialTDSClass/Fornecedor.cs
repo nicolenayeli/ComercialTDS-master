@@ -16,6 +16,8 @@ namespace ComercialTDSClass
         public string Contato { get; set; }
         public string Telefone { get; set; }
         public string Email { get; set; }
+
+        public Fornecedor() { }
         public Fornecedor(int id, string razaoSocial, string fantasia, string cnpj, string contato, string telefone, string email)
         {
             Id = id;
@@ -33,11 +35,9 @@ namespace ComercialTDSClass
             Cnpj = cnpj;
            
         }
-        public Fornecedor(int id, string razaoSocial, string fantasia, string cnpj, string contato, string telefone, string email)
+        public Fornecedor(int id, string cnpj, string contato, string telefone, string email)
         {
             Id = id;
-            RazaoSocial = razaoSocial;
-            Fantasia = fantasia;
             Cnpj = cnpj;
             Contato = contato;
             Telefone = telefone;
